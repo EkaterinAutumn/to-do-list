@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('dekstop.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+h1 {
+    margin-top: 200px;
+}
+
+h1,
+.container,
+.task-list {
+    text-align: center;
+}
+
+.wrapper-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.task-list {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 500px;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 18px;
+    padding: 0;
+}
+
+.btn {
+    width: 177px;
+    height: 40px;
+    background-color: #be5542b2;
+    border: 1px solid black;
+    border-radius: 3%;
+}
+
+.input {
+    width: 320px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+::placeholder {
+    padding-left: 5px;
+}
+
+.span {
+    width: 289px;
+    text-align: start;
+    overflow: scroll;
+}
+
+.checked {
+    width: 26px;
+    height: 26px;
+    text-align: end;
+    margin: 0;
+    MARGIN-RIGHT: 10PX;
+}
+
+.tasks {
+    height: 500px;
+    overflow: scroll;
+}
+
+button {
+    padding: 0;
+    height: 26px;
+    width: 135px;
+    background-color: #be5542b2;
+    border: 1px solid black;
+}
+
+.dark {
+    background-color: rgba(59, 57, 57, 0.547);
+}
